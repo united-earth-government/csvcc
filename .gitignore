@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio Code files
+*.code-workspace
+
+# Visual Studio files
+.vs/
+out/

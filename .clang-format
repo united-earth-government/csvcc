@@ -55,6 +55,7 @@ SpaceBeforeParensOptions:
   AfterControlStatements:    true
   AfterRequiresInClause:     true
   AfterRequiresInExpression: true
+  AfterOverloadedOperator:   false
 DerivePointerAlignment: false
 DisableFormat:   false
 ExperimentalAutoDetectBinPacking: false

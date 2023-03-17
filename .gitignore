@@ -32,8 +32,13 @@
 *.app
 
 # Visual Studio Code files
+.vscode/settings.json
 *.code-workspace
 
 # Visual Studio files
 .vs/
 out/
+
+# Commonly seen binary output folder name
+**/build/
+**/bin/

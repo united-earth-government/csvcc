@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "basic_usage",
+            "program": "${workspaceFolder}/build/examples/Debug/basic_usage.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/examples/"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "split_str_test",
+            "program": "${workspaceFolder}/build/tests/Debug/split_str_test.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
